@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class FeatureComputationJob {
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: FeatureComputationDriver <input path> <output path>");
+            System.err.println("Usage: FeatureComputationJob <input path> <output path>");
             System.exit(-1);
         }
 
