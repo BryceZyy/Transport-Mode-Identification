@@ -11,14 +11,14 @@ public class JoinJob {
 
     public static void main(String[] args) throws Exception {
         if (args.length != 2) {
-            System.err.println("Usage: JoinDriver <input path> <output path>");
+            System.err.println("Usage: JoinJob <input path> <output path>");
             System.exit(-1);
         }
 
         // Configuration
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "Data Join");
-        job.setJarByClass(JoinDriver.class);
+        job.setJarByClass(JoinJob.class);
         
         // Set Mapper and Reducer
         job.setMapperClass(JoinMapper.class);
