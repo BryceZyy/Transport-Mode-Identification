@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReduceFeature2Reducer extends Reducer<Text, Text, Text, Text> {
+public class Feature2Reducer extends Reducer<Text, Text, Text, Text> {
     
     @Override
     protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
