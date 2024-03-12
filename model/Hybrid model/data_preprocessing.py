@@ -5,7 +5,7 @@ def load_data():
     Load mobile signaling data from CSV files.
     """
     df1 = pd.read_csv('data/sfdata1.csv', header=None)
-    df2 = pd.read_csv('data/sfdata2.csv', header=None, encoding='gbk')
+    df2 = pd.read_csv('data/sfdata2.csv', header=None)
     df3 = pd.read_csv('data/sfdata3.csv', header=None)
     return df1, df2, df3
 
