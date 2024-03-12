@@ -1,6 +1,6 @@
 from data_preprocessing import load_data, prepare_data
-from random_forest_model import train_random_forest, evaluate_model, plot_feature_importances
-from bilstm_model import create_bilstm_model, train_bilstm_model
+from RFE_model import train_random_forest, evaluate_model
+from BiLSTM_model import create_bilstm_model, train_bilstm_model
 from model_evaluation import plot_confusion_matrix
 from utils import create_dataset
 import numpy as np
