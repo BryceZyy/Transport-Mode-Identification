@@ -27,7 +27,7 @@ To ensure fairness in the experimental evaluation, each model is configured with
 | LSTM        | Units: 32, Epochs: 50, Batch size: 72, Optimizer: Adam    |
 | BiLSTM      | Units: 32, Epochs: 50, Batch size: 72, Optimizer: Adam    |
 | CNN-BiLSTM  | Adds convolutional, pooling layer, batch normalization to BiLSTM architecture |
-| Hybrid      | Uses RFE predictions as features for BiLSTM               |
+| Hybrid      | RFE(Maximum depth: 10, Estimators: 200, Max features: 10), BiLSTM(Units: 32, Epochs: 50, Batch size: 72, Optimizer: Adam) |
 
 ## Performance Overview
 
