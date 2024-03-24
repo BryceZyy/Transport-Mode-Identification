@@ -19,9 +19,9 @@ import seaborn as sns
 import time
 
 
-df1 = pd.read_csv('E:/我的文档/手机大数据//手机大数据文件/数据/sf训练集（扩充）230202-1.csv',header=None)
-df2 = pd.read_csv('E:/我的文档/手机大数据/手机大数据文件/数据/sf训练集（扩充）230202-2.csv',header=None)
-df3 = pd.read_csv('E:/我的文档/手机大数据/手机大数据文件/数据/sf测试集（扩充）230202.csv',header=None)
+df1 = pd.read_csv('data/sfdata1.csv', header=None)
+df2 = pd.read_csv('data/sfdata2.csv', header=None)
+df3 = pd.read_csv('data/sfdata3.csv', header=None)
 
 y1 = df1[14]
 y2 = df2[14]
