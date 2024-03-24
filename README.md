@@ -43,3 +43,15 @@ The following table summarizes the training and inference times (in seconds) for
 | CNN-BiLSTM  | 80.85             | 1.05               |
 | Hybrid      | 143.60            | 2.01               |
 
+
+The table below shows the average performance of each model across different evaluation metrics. This summary provides a quick overview of how each model performs in various scenarios, including tolling freeways (FWY), toll-free state highways (HWY), high-speed railways (HSR), normal-speed railways (NSR), and static state (SS), along with the overall average.
+
+| Model       | Overall Avg | FWY Avg | HWY Avg | HSR Avg | NSR Avg | SS Avg |
+|-------------|-------------|---------|---------|---------|---------|--------|
+| KNN         | 0.729       | 0.689   | 0.623   | 0.798   | 0.366   | 0.936  |
+| XGBoost     | 0.891       | 0.916   | 0.763   | 0.890   | 0.832   | 0.960  |
+| LSTM        | 0.895       | 0.900   | 0.777   | 0.897   | 0.867   | 0.960  |
+| RF          | 0.885       | 0.912   | 0.754   | 0.875   | 0.819   | 0.961  |
+| BiLSTM      | 0.890       | 0.896   | 0.769   | 0.887   | 0.860   | 0.958  |
+| CNN-BiLSTM  | 0.895       | 0.895   | 0.815   | 0.841   | 0.825   | 0.955  |
+| Hybrid      | 0.920       | 0.937   | 0.801   | 0.930   | 0.926   | 0.956  |
