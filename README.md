@@ -1,5 +1,5 @@
 # Transport-Mode-Identification
-This is the code for the paper "A Hybrid Intercity Multimodal Transport Mode Identification Method Based on Mobility Features and Sequential Relations Mined from Cellular Signaling Data".
+This is the code for the paper "A Hybrid Method for Intercity Transport Mode Identification Based on Mobility Features and Sequential Relations Mined from Cellular Signaling Data".
 
 ## System Configuration
 
